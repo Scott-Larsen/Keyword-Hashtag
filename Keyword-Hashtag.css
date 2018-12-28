@@ -1,0 +1,78 @@
+body {
+  color: #000;
+  margin-top: 20vh;
+  font-size: 2.4vw;
+  text-align:center;
+/*   line-height: 4vw; */
+  font-family: Cutive Mono, sans-serif;
+}
+
+a {
+  color: #FA7268;
+}
+
+h1 {
+  margin: 0;
+  line-height: 55%;
+  font-size: 8.5vw;
+  font-family: Permanent Marker, sans-serif;
+}
+
+h3 {
+  font-size: 9vmin;
+/*   font-size: 2.6vmax; */
+/*   margin: 2rem 0 3rem 0; */
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 83vw;
+}
+
+#myInput {
+  font-size: 8vmin;
+  width: 82vw;
+  padding-left: .5vw;
+/*   padding: .25rem 1rem; */
+  font-family: Cutive Mono, sans-serif;
+  margin: .7vw 0;
+  border-radius: 1vw; 
+  color: #FA7268;
+}
+
+#asterisks {
+  padding: 1vw 0 0 0;
+  font-size: 3.5vw;
+/*   line-height: 0; */
+}
+
+#output {
+  font-size: 8vmin;
+/*   width: 82vw; */
+/*   font-size: 2rem; */
+  color: #FA7268;
+  font-weight: bold;
+/*   line-height: 5rem; */
+/*   border: 0; */
+}
+  
+button {
+  color: #FA7268;
+  font-size: 6.5vmin;
+  font-family: Cutive Mono, sans-serif;
+  background-color: white;
+  border-radius: 1vw;
+  border: 2px solid #FA7268;
+/*   padding: .15rem .5rem; */
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover { 
+  background-color: #FA7268;
+  color: white;
+}
+
+.footer {
+  font-size: 5vmin;
+}
