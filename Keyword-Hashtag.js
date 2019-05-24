@@ -1,6 +1,8 @@
 function myFunction() {
-  var xx = document.getElementById("myInput").value;
-  var x = xx.trim();
+  var x = document.getElementById("myInput").value;
+  var x = x.replace(/[^\w\s\#\,\"\']/gi, ' ')
+  var x = x.replace(/\"|\'/g, '')
+  var x = x.trim();
   var text = ""
 
 if (x.indexOf("#") == 0) {
